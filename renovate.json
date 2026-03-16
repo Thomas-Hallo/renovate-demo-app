@@ -9,13 +9,6 @@
   "prConcurrentLimit": 3,
   "packageRules": [
     {
-      "matchDepTypes": ["devDependencies"],
-      "matchUpdateTypes": ["patch", "minor"],
-      "groupName": "dev dependencies (patch + minor)",
-      "automerge": true,
-      "automergeType": "pr"
-    },
-    {
       "matchPackageNames": ["axios"],
       "enabled": false
     }
